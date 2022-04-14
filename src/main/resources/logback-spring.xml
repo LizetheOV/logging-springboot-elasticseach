@@ -55,7 +55,7 @@
                 <value>%thread</value>
             </property>
             <property>
-                <name>stacktrace</name>
+                <name>exception</name>
                 <value>%ex</value>
             </property>
             <property>

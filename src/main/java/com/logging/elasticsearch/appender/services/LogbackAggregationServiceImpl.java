@@ -24,7 +24,7 @@ public class LogbackAggregationServiceImpl implements LogbackAggregationService 
         MDC.put("appName", appName);
         MDC.put("code", identifier);
         MDC.put("startTime", LocalDateTime.now().toString());
-        setLogger(fromInput, input, "Input");
+        setLogger(fromInput, input, "input");
     }
 
     public void extraLogging(Object extra, List<String> fromExtra, String identifier) {
@@ -33,7 +33,7 @@ public class LogbackAggregationServiceImpl implements LogbackAggregationService 
 
     public void endLogging(String message, Object output, List<String> fromOutput) {
         MDC.put("endTime", LocalDateTime.now().toString());
-        setLogger(fromOutput, output, "Output");
+        setLogger(fromOutput, output, "output");
         LOGGER.trace(message);
         MDC.clear();
     }
