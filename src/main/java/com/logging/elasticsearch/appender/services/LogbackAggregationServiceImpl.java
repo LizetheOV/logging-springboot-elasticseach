@@ -5,7 +5,6 @@ import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
@@ -15,13 +14,10 @@ import java.util.List;
 
 @Service
 public class LogbackAggregationServiceImpl implements LogbackAggregationService {
-    @Value("${app.name}")
-    private String appName;
 
     private static final Logger LOGGER = LoggerFactory.getLogger(LogbackAggregationServiceImpl.class);
 
     public void startLogging(String identifier, Object input, List<String> fromInput) {
-        MDC.put("appName", appName);
         MDC.put("code", identifier);
         MDC.put("startTime", LocalDateTime.now().toString());
         setLogger(fromInput, input, "input");

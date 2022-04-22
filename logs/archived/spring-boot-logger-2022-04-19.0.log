@@ -1,0 +1,96 @@
+2022-04-14 09:56:01,346 INFO org.springframework.boot.StartupInfoLogger [main] Starting AppenderApplication using Java 11.0.14.1 on lizethe-X556UQK with PID 18641 (/home/lizethe/Documents/ssi/github-repos/logging-springboot-elasticseach/target/classes started by root in /home/lizethe/Documents/ssi/github-repos/logging-springboot-elasticseach)
+2022-04-14 09:56:01,363 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-14 09:56:01,363 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-14 09:56:01,625 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:01.346-0400","message":"Starting AppenderApplication using Java 11.0.14.1 on lizethe-X556UQK with PID 18641 (/home/lizethe/Documents/ssi/github-repos/logging-springboot-elasticseach/target/classes started by root in /home/lizethe/Documents/ssi/github-repos/logging-springboot-elasticseach)","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"com.logging.elasticsearch.appender.AppenderApplication"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:01.363-0400","message":"Running with Spring Boot v2.6.6, Spring v5.3.18","host":"lizethe-X556UQK","level":"DEBUG","thread":"main","logger":"com.logging.elasticsearch.appender.AppenderApplication"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:01.363-0400","message":"No active profile set, falling back to 1 default profile: 
+2022-04-14 09:56:01,627 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":
+2022-04-14 09:56:01,627 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:01.346-0400","message":"Starting AppenderAppl
+2022-04-14 09:56:03,572 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2022-04-14 09:56:03,585 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2022-04-14 09:56:03,586 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-04-14 09:56:03,586 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-14 09:56:03,598 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:03.572-0400","message":"Tomcat initialized with port(s): 8080 (http)","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:03.585-0400","message":"Initializing ProtocolHandler [
+2022-04-14 09:56:03,599 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-14 09:56:03,599 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:03.572-0400","message":"Tomcat initialized with port(s): 8080 (http)","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:03.585-0400","message":"Initializing ProtocolHandler \"http-nio-808\"]","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14
+2022-04-14 09:56:03,779 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-04-14 09:56:03,783 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2293 ms
+2022-04-14 09:56:03,926 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:03.779-0400","message":"Initializing Spring embedded WebApplicationContext","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:03.783-0400","message":"Root WebApplicationContext: initialization completed in 2293 ms","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext"}
+
+2022-04-14 09:56:04,533 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2022-04-14 09:56:04,540 WARN org.springframework.context.support.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-04-14 09:56:04,545 INFO org.apache.juli.logging.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2022-04-14 09:56:04,545 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping service [Tomcat]
+2022-04-14 09:56:04,552 INFO org.apache.juli.logging.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2022-04-14 09:56:04,553 INFO org.apache.juli.logging.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2022-04-14 09:56:04,574 INFO org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener [main] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-14 09:56:04,640 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-04-14 09:56:04,795 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting ProtocolHandler [
+2022-04-14 09:56:04,795 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_ind
+2022-04-14 09:56:04,796 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting ProtocolHandler \"http-nio-808\"]","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.540-0400","message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use","host":"lizethe-X556UQK","level":"WARN","thread":"main","logger":"org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplica
+2022-04-14 09:56:04,796 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_ind
+2022-04-14 09:56:04,797 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting ProtocolHandler \"http-nio-808\"]","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.540-0400","message":"Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationCo
+2022-04-14 09:56:04,797 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_ind
+2022-04-14 09:56:04,797 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting ProtocolHandler \"http-nio-808\"]","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11Nio
+2022-04-14 09:56:04,797 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_ind
+2022-04-14 09:56:04,798 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting ProtocolHandler \"http-nio-808\"]","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.ap
+2022-04-14 09:56:04,798 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"
+2022-04-14 09:56:04,798 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting ProtocolHandler \"http-nio-808\"]","host":"lizethe-X556UQK","level":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.540-0400","message":"Exception en
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboo
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboo
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboo
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_in
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"
+2022-04-14 09:56:04,799 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timest
+2022-04-14 09:56:04,800 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"
+2022-04-14 09:56:04,800 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":
+2022-04-14 09:56:04,800 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"
+2022-04-14 09:56:04,800 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting Pro
+2022-04-14 09:56:04,800 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-14"}}
+{"@timestamp":"2022-04-14T09:56:04.533-0400","message":"Starting ProtocolHandler \"http-nio

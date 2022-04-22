@@ -4,6 +4,7 @@ import com.logging.elasticsearch.appender.dto.request.TraceInput;
 import com.logging.elasticsearch.appender.dto.response.GenericResponse;
 import com.logging.elasticsearch.appender.services.LogbackAggregationService;
 import com.logging.elasticsearch.appender.services.TransformService;
+import org.slf4j.MDC;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

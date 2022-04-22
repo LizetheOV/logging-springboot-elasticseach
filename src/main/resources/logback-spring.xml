@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
+    <springProperty scope="context" name="app_name" source="app.name"/>
+    <springProperty scope="context" name="app_version" source="app.version"/>
+    <springProperty scope="context" name="elasticsearch_url" source="elasticsearch.url"/>
     <property name="LOGS" value="./logs"/>
     <appender name="Console"
               class="ch.qos.logback.core.ConsoleAppender">
@@ -9,8 +12,6 @@
             </Pattern>
         </layout>
     </appender>
-    <property resource="application.properties" />
-    <springProperty name="appName" source="spring.application.name"/>
     <appender name="RollingFile" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOGS}/spring-boot-logger.log</file>
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
@@ -25,7 +26,7 @@
         </rollingPolicy>
     </appender>
     <appender name="ELASTIC" class="com.internetitem.logback.elasticsearch.ElasticsearchAppender">
-        <url>http://localhost:9200/_bulk/</url>
+        <url>${elasticsearch_url}</url>
         <index>springboot-logs-%date{yyyy-MM-dd}</index>
         <loggerName>springboot-logger</loggerName> <!-- optional -->
         <errorLoggerName>springboot-error-logger</errorLoggerName> <!-- optional -->
@@ -41,6 +42,16 @@
         <includeMdc>true</includeMdc> <!-- optional (default false) -->
         <maxMessageSize>10000</maxMessageSize> <!-- optional (default -1 -->
         <properties>
+            <property>
+                <name>appName</name>
+                <value>${app_name}</value>
+                <allowEmpty>false</allowEmpty>
+            </property>
+            <property>
+                <name>appVersion</name>
+                <value>${app_version}</value>
+                <allowEmpty>false</allowEmpty>
+            </property>
             <property>
                 <name>host</name>
                 <value>${HOSTNAME}</value>

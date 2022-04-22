@@ -1,0 +1,239 @@
+2022-04-21 16:09:44,249 INFO org.springframework.boot.StartupInfoLogger [main] Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 102900 (C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach\target\classes started by lizeth.ovando in C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach)
+2022-04-21 16:09:44,269 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-21 16:09:44,270 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-21 16:09:44,520 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:44.249-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 102900 (C:
+2022-04-21 16:09:44,521 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 16:09:44,522 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 16:09:44,522 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 16:09:44,522 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 16:09:44,523 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-lo
+2022-04-21 16:09:44,523 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index"
+2022-04-21 16:09:44,523 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022
+2022-04-21 16:09:44,523 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 16:09:44,523 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 16:09:44,524 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 16:09:44,524 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 16:09:44,525 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:44.249-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 102900 (C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseac\\targe\\classes started by lizeth.ovando in C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseach)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"com.logging.elasticsearch.appender.AppenderApplication"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:44.269-0400","mess
+2022-04-21 16:09:44,525 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":
+2022-04-21 16:09:44,525 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:44.249-0400","message":"Starting AppenderApplica
+2022-04-21 16:09:44,759 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:09:45,026 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:09:45,283 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [GET, HEAD, DELETE]","status":405}
+2022-04-21 16:09:45,868 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-04-21 16:09:45,892 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-04-21 16:09:45,893 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-04-21 16:09:45,893 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-21 16:09:46,038 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-04-21 16:09:46,039 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1622 ms
+2022-04-21 16:09:46,121 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:45.868-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:45.892-0400","message":"Initializing ProtocolHandler [
+2022-04-21 16:09:46,121 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_ind
+2022-04-21 16:09:46,122 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:45.868-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:45.892-0400","message":"Initializing ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:45.893-0400","message":"Starting service [Tomcat]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardService"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:45.893-0400","message":"Starting Servlet engine: [Apache Tomcat/9.0.60]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardEngine"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:46.038-0400","message":"Initializing Spring embedded WebApplicationContext","host":"Infraestructura"
+2022-04-21 16:09:46,145 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-2] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:09:46,405 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-2] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:09:46,434 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-04-21 16:09:46,468 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-04-21 16:09:46,501 INFO org.springframework.boot.StartupInfoLogger [main] Started AppenderApplication in 3.22 seconds (JVM running for 8.158)
+2022-04-21 16:09:46,657 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:46.434-0400","message":"Starting ProtocolHandler [
+2022-04-21 16:09:46,657 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_ind
+2022-04-21 16:09:46,658 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-2] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:46.434-0400","message":"Starting ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:46.468-0400","message":"Tomcat started on port(s): 8090 (http) with context path ''","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:09:46.501-0400","message":"Started AppenderApplication in 3.22 seconds (JVM r
+2022-04-21 16:09:46,666 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-2] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:09:46,926 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-2] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:09:47,185 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-2] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:28:58,031 INFO org.springframework.boot.StartupInfoLogger [main] Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 94912 (C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach\target\classes started by lizeth.ovando in C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach)
+2022-04-21 16:28:58,034 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-21 16:28:58,035 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-21 16:28:58,286 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.031-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 94912 (C:
+2022-04-21 16:28:58,287 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 16:28:58,287 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 16:28:58,288 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 16:28:58,288 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 16:28:58,288 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-lo
+2022-04-21 16:28:58,288 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index"
+2022-04-21 16:28:58,288 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022
+2022-04-21 16:28:58,288 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 16:28:58,289 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 16:28:58,289 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 16:28:58,289 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 16:28:58,289 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.031-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 94912 (C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseac\\targe\\classes started by lizeth.ovando in C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseach)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"com.logging.elasticsearch.appender.AppenderApplication"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.034-0400","messa
+2022-04-21 16:28:58,290 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":
+2022-04-21 16:28:58,290 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.031-0400","message":"Starting AppenderApplica
+2022-04-21 16:28:58,309 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:28:58,567 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:28:58,832 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:28:58,870 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-04-21 16:28:58,878 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-04-21 16:28:58,879 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-04-21 16:28:58,879 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-21 16:28:58,976 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-04-21 16:28:58,976 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 891 ms
+2022-04-21 16:28:59,083 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.870-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.878-0400","message":"Initializing ProtocolHandler [
+2022-04-21 16:28:59,083 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 16:28:59,084 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.870-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.878-0400","message":"Initializing ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.879-0400","message":"Starting service [Tomcat]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardService"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.879-0400","message":"Starting Servlet engine: [Apache Tomcat/9.0.60]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardEngine"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:58.976-0400","message":"Initializing Spring embedded WebApplicationContext","host":"Infraestructura
+2022-04-21 16:28:59,091 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [GET, DELETE, HEAD]","status":405}
+2022-04-21 16:28:59,315 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-04-21 16:28:59,339 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-04-21 16:28:59,348 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:59.315-0400","message":"Starting ProtocolHandler [
+2022-04-21 16:28:59,348 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 16:28:59,348 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:59.315-0400","message":"Starting ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:59.339-0400","message":"Tomcat started on port(s): 8090 (http) with cont
+2022-04-21 16:28:59,355 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [GET, DELETE, HEAD]","status":405}
+2022-04-21 16:28:59,358 INFO org.springframework.boot.StartupInfoLogger [main] Started AppenderApplication in 1.81 seconds (JVM running for 2.718)
+2022-04-21 16:28:59,606 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T16:28:59.358-0400","message":"Started AppenderApplication in 1.81 seconds (JVM running for 2.718)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"com.logging.elasticsearch.appender.AppenderApplication"}
+
+2022-04-21 16:28:59,613 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [GET, DELETE, HEAD]","status":405}
+2022-04-21 16:28:59,875 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [DELETE, HEAD, GET]","status":405}
+2022-04-21 16:29:00,134 WARN com.internetitem.logback.elasticsearch.util.ErrorReporter [es-writer-1] Failed to send events to Elasticsearch: Got response code [405] from server with data {"error":"Incorrect HTTP method for uri [/?/_bulk/] and method [POST], allowed: [GET, DELETE, HEAD]","status":405}
+2022-04-21 17:15:12,525 INFO org.springframework.boot.StartupInfoLogger [main] Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 39760 (C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach\target\classes started by lizeth.ovando in C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach)
+2022-04-21 17:15:12,528 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-21 17:15:12,529 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-21 17:15:12,781 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:12.525-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 39760 (C:
+2022-04-21 17:15:12,782 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 17:15:12,783 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 17:15:12,784 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 17:15:12,784 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 17:15:12,785 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-lo
+2022-04-21 17:15:12,786 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index"
+2022-04-21 17:15:12,787 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022
+2022-04-21 17:15:12,787 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 17:15:12,789 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 17:15:12,792 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 17:15:12,793 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 17:15:12,794 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:12.525-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 39760 (C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseac\\targe\\classes started by lizeth.ovando in C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseach)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"com.logging.elasticsearch.appender.AppenderApplication"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:12.528-0400","messa
+2022-04-21 17:15:12,795 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":
+2022-04-21 17:15:12,795 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:12.525-0400","message":"Starting AppenderApplica
+2022-04-21 17:15:13,557 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-04-21 17:15:13,567 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-04-21 17:15:13,568 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-04-21 17:15:13,568 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-21 17:15:13,685 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-04-21 17:15:13,686 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1107 ms
+2022-04-21 17:15:14,027 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-04-21 17:15:14,049 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-04-21 17:15:14,061 INFO org.springframework.boot.StartupInfoLogger [main] Started AppenderApplication in 2.166 seconds (JVM running for 5.037)
+2022-04-21 17:15:14,190 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.557-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.567-0400","message":"Initializing ProtocolHandler [
+2022-04-21 17:15:14,190 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 17:15:14,191 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.557-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.567-0400","message":"Initializing ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.568-0400","message":"Starting service [Tomcat]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardService"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.568-0400","message":"Starting Servlet engine: [Apache Tomcat/9.0.60]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardEngine"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.685-0400","message":"Initializing Spring embedded WebApplicationContext","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"}
+{"index":{"_index":"s
+2022-04-21 17:15:14,192 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 17:15:14,192 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.557-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.567-0400","message":"Initializing ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T17:15:13.568-0400","message":"Starting service [Tomcat]","host":"Infraestructura","severity"
+2022-04-21 19:08:58,320 INFO org.springframework.boot.StartupInfoLogger [main] Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 42864 (C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach\target\classes started by lizeth.ovando in C:\Users\lizeth.ovando\Documents\projects\logging-springboot-elasticseach)
+2022-04-21 19:08:58,325 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.6.6, Spring v5.3.18
+2022-04-21 19:08:58,327 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-04-21 19:08:58,578 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:58.320-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 42864 (C:
+2022-04-21 19:08:58,579 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 19:08:58,580 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 19:08:58,581 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 19:08:58,582 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 19:08:58,583 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-lo
+2022-04-21 19:08:58,583 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index"
+2022-04-21 19:08:58,583 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022
+2022-04-21 19:08:58,583 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index
+2022-04-21 19:08:58,584 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 19:08:58,585 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"
+2022-04-21 19:08:58,585 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{
+2022-04-21 19:08:58,586 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:58.320-0400","message":"Starting AppenderApplication using Java 17.0.2 on Infraestructura with PID 42864 (C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseac\\targe\\classes started by lizeth.ovando in C\\User\\lizeth.ovand\\Document\\project\\logging-springboot-elasticseach)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"com.logging.elasticsearch.appender.AppenderApplication"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:58.325-0400","messa
+2022-04-21 19:08:58,587 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":
+2022-04-21 19:08:58,588 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:58.320-0400","message":"Starting AppenderApplica
+2022-04-21 19:08:59,329 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8090 (http)
+2022-04-21 19:08:59,338 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8090"]
+2022-04-21 19:08:59,338 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-04-21 19:08:59,339 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-21 19:08:59,437 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-04-21 19:08:59,438 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 978 ms
+2022-04-21 19:08:59,770 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8090"]
+2022-04-21 19:08:59,791 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8090 (http) with context path ''
+2022-04-21 19:08:59,803 INFO org.springframework.boot.StartupInfoLogger [main] Started AppenderApplication in 2.09 seconds (JVM running for 3.25)
+2022-04-21 19:09:00,633 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.329-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.338-0400","message":"Initializing ProtocolHandler [
+2022-04-21 19:09:00,634 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 19:09:00,636 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.329-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.338-0400","message":"Initializing ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.338-0400","message":"Starting service [Tomcat]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardService"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.339-0400","message":"Starting Servlet engine: [Apache Tomcat/9.0.60]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.StandardEngine"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.437-0400","message":"Initializing Spring embedded WebApplicationContext","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]"}
+{"index":{"_index":"
+2022-04-21 19:09:00,637 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_ind
+2022-04-21 19:09:00,638 INFO com.internetitem.logback.elasticsearch.writer.LoggerWriter [es-writer-1] {"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.329-0400","message":"Tomcat initialized with port(s): 8090 (http)","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.springframework.boot.web.embedded.tomcat.TomcatWebServer"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.338-0400","message":"Initializing ProtocolHandler \"http-nio-809\"]","host":"Infraestructura","severity":"INFO","thread":"main","logger":"org.apache.coyote.http11.Http11NioProtocol"}
+{"index":{"_index":"springboot-logs-2022-04-21"}}
+{"@timestamp":"2022-04-21T19:08:59.338-0400","message":"Starting service [Tomcat]","host":"Infraestructura","severit
