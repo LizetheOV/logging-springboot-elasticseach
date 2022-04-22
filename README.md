@@ -123,5 +123,9 @@ In your logback-spring.xml:
 
 <h3>Configuration Reference</h3>
 <hr>
-   <strong>url (required):</strong> The URL to your Elasticsearch bulk API endpoint
+<ul>
+<li><strong>url (required):</strong> The URL to your Elasticsearch bulk API endpoint</li>
+<li><strong>includeMdc:</strong> Set in true, for use org.slf4j.MDC, used in this sample to uniquely stamp each request, the user puts contextual information into the MDC, the abbreviation of Mapped Diagnostic Context. For more detail abort MDC review this <a href="https://logback.qos.ch/manual/mdc.html">MDC</a></li>
+</ul>
+
 <strong>Note:</strong> For more detail about configuration review this <a href="https://github.com/internetitem/logback-elasticsearch-appender" target="_blank">Logback Elasticsearch Appender</a>
