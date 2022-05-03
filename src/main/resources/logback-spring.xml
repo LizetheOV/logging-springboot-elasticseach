@@ -41,6 +41,7 @@
         <rawJsonMessage>false</rawJsonMessage> <!-- optional (default false) -->
         <includeMdc>true</includeMdc> <!-- optional (default false) -->
         <maxMessageSize>10000</maxMessageSize> <!-- optional (default -1 -->
+        <authentication class="com.internetitem.logback.elasticsearch.config.BasicAuthentication" /> <!-- optional -->
         <properties>
             <property>
                 <name>appName</name>
